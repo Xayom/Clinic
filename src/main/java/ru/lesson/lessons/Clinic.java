@@ -1,9 +1,11 @@
+package ru.lesson.lessons;
+
 /**
-*Класс описывает клинику.
+*пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 */
 public class Clinic{
     /**
-    *Список клиентов.
+    *пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
     */
     private final Client[] clients;
 
@@ -12,15 +14,15 @@ public class Clinic{
     }
 
     /**
-    *добавить клиента.
+    *пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
     */
     public void addClient(final int position, final Client client){
         this.clients[position] = client;
     }
 
     /**
-    *Искать клиента.
-    *@param name имя.
+    *пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+    *@param name пїЅпїЅпїЅ.
     */
     public Client[] findClientByPetName(final String name){
         Client[] ans = new Client[this.clients.length];
@@ -34,6 +36,12 @@ public class Clinic{
             return null;
         return ans;
     }
+    public int AmountofPets(){
+        return this.clients.length;
+    }
+
+
+
     public Client[] ShowAllClientByPetName(){
         return this.clients;
     }

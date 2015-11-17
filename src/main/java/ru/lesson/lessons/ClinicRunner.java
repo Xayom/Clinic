@@ -1,5 +1,7 @@
+package ru.lesson.lessons;
+
 /**
-*Работа клиники
+*пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 */
 public class ClinicRunner{
     public static void main(String[] arg){

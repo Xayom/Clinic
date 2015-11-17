@@ -1,5 +1,7 @@
+package ru.lesson.lessons;
+
 /**
-*Клиент
+*пїЅпїЅпїЅпїЅпїЅпїЅ
 */
 public class Client{
     private final String id;

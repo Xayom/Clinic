@@ -1,3 +1,5 @@
+package ru.lesson.lessons;
+
 public class Animal{
     private final String name;
     public Animal (final String name){

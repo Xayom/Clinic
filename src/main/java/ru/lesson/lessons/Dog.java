@@ -1,5 +1,7 @@
+package ru.lesson.lessons;
+
 /**
-*Класс Собаки
+*пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 */
 public class Dog implements Pet{
     private final Animal animal;

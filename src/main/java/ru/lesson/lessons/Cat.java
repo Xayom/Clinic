@@ -1,5 +1,6 @@
+package ru.lesson.lessons;
 /**
-*Класс Кота
+*пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 */
 public class Cat implements Pet{
 

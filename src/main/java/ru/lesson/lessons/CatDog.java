@@ -1,5 +1,7 @@
+package ru.lesson.lessons;
+
 /**
-*Класс КотаПса
+*пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 */
 public class CatDog implements Pet{
     private final Cat cat;
