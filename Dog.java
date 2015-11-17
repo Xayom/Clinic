@@ -2,12 +2,15 @@
 *Класс Собаки
 */
 public class Dog implements Pet{
-    public final Animal animal;
+    private final Animal animal;
 
     public Dog(Animal animal){
         this.animal = animal;
     }
     public String getName(){
-        return this.animal.name;
+        return this.animal.getName();
+    }
+    public String getTypeOfPet(){
+        return "Dog";
     }
 }

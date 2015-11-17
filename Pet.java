@@ -2,5 +2,6 @@
 *Создаем интерфейс питомца
 */
 public interface Pet{
-    public String getName();
+    String getName();
+    String getTypeOfPet();
 }

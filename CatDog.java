@@ -10,7 +10,10 @@ public class CatDog implements Pet{
         this.dog = dog;
     }
     public String getName(){
-        return this.cat.name;
+        return this.cat.getName();
+    }
+    public String getTypeOfPet(){
+        return "CatDog";
     }
 
 }

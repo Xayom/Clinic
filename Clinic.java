@@ -34,4 +34,14 @@ public class Clinic{
             return null;
         return ans;
     }
+    public Client[] ShowAllClientByPetName(){
+        return this.clients;
+    }
+    public void DeleteByPetName(final String name){
+        for (int pos = 0; pos < this.clients.length; pos++){
+            if (this.clients[pos] != null && this.clients[pos].getNamePet().equals(name)){
+                this.clients[pos] = null;
+            }
+        }
+    }
 }
